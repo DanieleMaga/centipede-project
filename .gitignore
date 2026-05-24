@@ -1,0 +1,34 @@
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+ENV/
+centipede/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Project specific
+results/
+*.log
+*.mp4
+*.gif
+models/*.pth
+models/*.pkl
